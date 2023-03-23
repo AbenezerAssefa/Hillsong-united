@@ -67,7 +67,7 @@ I find the following features to be intresting::
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Link to live demo](https://abenezerassefa.github.io/HillsongUnited/)
+[Link to live demo](https://abenezerassefa.github.io/Hillsong-united/)
 
 ### Video
 
@@ -125,7 +125,7 @@ Example command:
 
 ### Deployment
 
-- https://abenezerassefa.github.io/HillsongUnited/
+- https://abenezerassefa.github.io/Hillsong-united/
 
 <!--
 Example:

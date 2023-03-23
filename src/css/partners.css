@@ -1,0 +1,60 @@
+.partner,
+.footer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .partner,
+  .footer {
+    display: block;
+  }
+
+  .partner {
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+    background-color: #494949;
+  }
+
+  .partner h2 {
+    padding-bottom: 2rem;
+    font-weight: 200;
+  }
+
+  .partner h2::after {
+    position: absolute;
+    left: calc(50% - 20px);
+    display: block;
+    width: 40px;
+    border-bottom: 1px solid var(--orange);
+    content: '';
+    padding-top: 0.5rem;
+  }
+
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    list-style: none;
+  }
+
+  .partners img {
+    width: 6rem;
+    height: 4rem;
+  }
+
+  .footer {
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .rights {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+  }
+}

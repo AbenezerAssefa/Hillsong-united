@@ -1,0 +1,107 @@
+.main-program {
+  background: url('../../assets/images/steal-tile.jpg');
+  padding-bottom: 3rem;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.main-program h2 {
+  padding: 1.5rem;
+  font-weight: 300;
+}
+
+.main-program h2::after {
+  position: absolute;
+  left: calc(50% - 30px);
+  display: block;
+  width: 60px;
+  border-bottom: 1px solid var(--orange);
+  content: '';
+  padding-top: 1rem;
+}
+
+.events {
+  display: grid;
+  justify-content: center;
+  grid-gap: 0.5rem;
+  padding: 5%;
+  list-style: none;
+  padding-top: 2rem;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: hsl(227deg 4% 53% / 27%);
+  padding: 1rem;
+  text-align: left;
+}
+
+.event img {
+  height: 40px;
+}
+
+.event:hover {
+  border: solid 1px white;
+}
+
+.event :nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+
+.event :nth-child(2) {
+  flex: 1;
+  padding: 0 0.5rem;
+  color: var(--orange);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.event :nth-child(3) {
+  flex: 3;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.get-ticket {
+  margin-top: 1rem;
+  background-color: var(--orange);
+  text-align: center;
+  color: var(--gray);
+  padding: 1.5rem 4rem;
+  border: none;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .main-program h2 {
+    padding-bottom: 3rem;
+  }
+
+  .events {
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 10%;
+    grid-gap: 2px;
+  }
+
+  .event {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .event-title {
+    font-size: 1.2rem;
+  }
+
+  .get-ticket {
+    padding: 3rem 0 0.2rem 0;
+    background-color: transparent;
+    border-bottom: solid white 1px;
+    cursor: pointer;
+  }
+}

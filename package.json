@@ -1,0 +1,47 @@
+{
+  "name": "hillsongunited",
+  "version": "1.0.0",
+  "description": "<!-- TABLE OF CONTENTS -->",
+  "main": "index.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "debug": "^4.3.4",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "insert-rule": "^2.1.0",
+    "minimatch": "^3.1.2",
+    "ms": "^2.1.2",
+    "nib": "^1.2.0",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "sax": "^1.2.4",
+    "source-map": "^0.7.4",
+    "stylus": "^0.59.0",
+    "wrappy": "^1.0.2"
+  },
+  "devDependencies": {
+    "hint": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbenezerAssefa/HillsongUnited.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbenezerAssefa/HillsongUnited/issues"
+  },
+  "homepage": "https://github.com/AbenezerAssefa/HillsongUnited#readme"
+}

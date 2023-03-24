@@ -69,10 +69,6 @@ I find the following features to be intresting::
 
 [Link to live demo](https://abenezerassefa.github.io/Hillsong-united/)
 
-### Video
-
-[Link to live Video](https://www.loom.com/share/ee5f570c4ee34cf3867416084e5953e6)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
